@@ -1,8 +1,7 @@
 ### Frank Loewenich
      
   Software engineer with ~10 years in commercial mobile development (including an iOS
-  team-lead role), now focused on **AI and aerial robotics** via a Master of AI & Robotics
-  (QUT) — building edge computer vision and autonomy for UAVs.
+  team-lead role), now focused on **AI and aerial robotics** via a research master's (MPhil, QUT) — building edge computer vision and autonomy for UAVs.
   
   **What I'm working on**
   - **Edge / on-device computer vision** — running perception models efficiently on
@@ -12,6 +11,11 @@
   - **Precision agriculture** — turning aerial imagery into weed and crop-health maps
   
   **Recent work**
+  - [**uav-survey-strategy-simulation**](https://github.com/roguebytes/uav-survey-strategy-simulation)
+    — the simulation behind my MPhil paper *"Fly High or Fly Low?"* (submitted to
+    *Remote Sensing*, 2026): a stochastic framework that pre-computes when a
+    high-altitude UAV survey beats a low-altitude sweep, cutting mission time by up
+    to **68%** in sparse fields — fully reproducible from a single seed.
   - [**deepweeds-edge-classifier**](https://github.com/roguebytes/deepweeds-edge-classifier)
     — a 4.2 M-param MobileNetV3 reaching **97%** on the Australian DeepWeeds dataset
     (above the dataset paper's ResNet-50 baseline), with ONNX/INT8 export and edge
@@ -28,7 +32,7 @@
   (optical-flow head-tracking, motion tracking).
   
   **Background**
-  MSc Artificial Intelligence & Robotics, QUT (in progress) · BIT (Honours), QUT ·
+  MPhil — AI & robotics research, QUT (in progress) · BIT (Honours), QUT ·
   CASA Remote Pilot Licence (to 25 kg) · MAAA Bronze Wings · Brisbane, Australia.
   
   **Tech:** Python · PyTorch · ONNX / ONNX Runtime · Computer Vision · Edge AI ·
