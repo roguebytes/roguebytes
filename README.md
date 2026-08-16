@@ -1,6 +1,6 @@
 ### Frank Loewenich
      
-  Software engineer with ~10 years in commercial mobile development (including an iOS
+  Software engineer with 12 years in commercial mobile development (including an iOS
   team-lead role), now focused on **AI and aerial robotics** via a research master's (MPhil, QUT) — building edge computer vision and autonomy for UAVs.
   
   **What I'm working on**
@@ -17,12 +17,18 @@
     high-altitude UAV survey beats a low-altitude sweep, cutting mission time by up
     to **68%** in sparse fields — fully reproducible from a single seed.
   - [**deepweeds-edge-classifier**](https://github.com/roguebytes/deepweeds-edge-classifier)
-    — a 4.2 M-param MobileNetV3 reaching **97%** on the Australian DeepWeeds dataset
-    (above the dataset paper's ResNet-50 baseline), with ONNX/INT8 export and edge
-    benchmarking.
+    — weed classification for the Australian DeepWeeds dataset, taken all the way to
+    silicon: **96% top-1 at 2,200+ FPS** (1.8 ms) on a Raspberry Pi 5 + Hailo-8 NPU,
+    within 1 pp of the FP32 baseline — plus the INT8 quantization post-mortem that
+    forced a MobileNetV3 → V2 backbone switch.
+  - [**Krumbs: Recipe Keeper**](https://apps.apple.com/au/app/krumbs-recipe-keeper/id6761420743)
+    — shipped on the App Store (2026): turns messy recipe pages and video captions into
+    clean, structured recipe cards using **on-device extraction with Apple Intelligence**,
+    with a cloud fallback on older hardware. No accounts, private iCloud-only sync —
+    the same on-device inference discipline as the Pi/Hailo work, on Apple silicon.
   
   **Experience**
-  ~10 years building production mobile apps, including an **iOS team-lead** role
+  12 years building production mobile apps, including an **iOS team-lead** role
   delivering and maintaining a large custom-branded app suite with CI/CD at scale.
   Shipped iOS/Android apps across **fintech, commercial real estate, logistics &
   agriculture, and food retail** — mapping & real-time navigation, point-of-sale,
