@@ -2,15 +2,17 @@
      
   Software engineer with 12 years in commercial mobile development (including an iOS
   team-lead role), now focused on **AI and aerial robotics** via a research master's (MPhil, QUT) — building edge computer vision and autonomy for UAVs.
-  
+
   **What I'm working on**
+
   - **Edge / on-device computer vision** — running perception models efficiently on
     low-cost hardware (Raspberry Pi, Jetson)
   - **3D-printed fixed-wing UAVs** with PX4 / ArduPilot and ROS 2 — airframe through
     flight stack to onboard inference
   - **Precision agriculture** — turning aerial imagery into weed and crop-health maps
-  
+
   **Recent work**
+
   - [**uav-survey-strategy-simulation**](https://github.com/roguebytes/uav-survey-strategy-simulation)
     — the simulation behind my MPhil paper *"Fly High or Fly Low?"* (submitted to
     *Remote Sensing*, 2026): a stochastic framework that pre-computes when a
@@ -27,8 +29,9 @@
     with Apple Intelligence**, with a cloud fallback on older hardware. No accounts,
     private iCloud-only sync — the same on-device inference discipline as the Pi/Hailo
     work, on Apple silicon.
-  
+
   **Experience**
+
   12 years building production mobile apps, including an **iOS team-lead** role
   delivering and maintaining a large custom-branded app suite with CI/CD at scale.
   Shipped iOS/Android apps across **fintech, commercial real estate, logistics &
@@ -37,11 +40,12 @@
   assistant** role building a mobile/robot front-end with **ROS 2** and real-time
   robot↔cloud communication. Earlier academic work published in **computer vision**
   (optical-flow head-tracking, motion tracking).
-  
+
   **Background**
+
   MPhil — AI & robotics research, QUT (in progress) · BIT (Honours), QUT ·
   CASA Remote Pilot Licence (to 25 kg) · MAAA Bronze Wings · Brisbane, Australia.
-  
+
   **Tech:** Python · PyTorch · ONNX / ONNX Runtime · Computer Vision · Edge AI ·
   ROS 2 · Gazebo · PX4 / ArduPilot · Docker · FastAPI · (mobile: Swift, Objective-C,
   Kotlin/Java)
