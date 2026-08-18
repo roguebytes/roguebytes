@@ -24,11 +24,10 @@
     within 1 pp of the FP32 baseline — plus the INT8 quantization post-mortem that
     forced a MobileNetV3 → V2 backbone switch.
   - [**Krumbs: Recipe Keeper**](https://apps.apple.com/au/app/krumbs-recipe-keeper/id6761420743)
-    — shipped on the App Store (2026, soft launch: AU & PH): turns messy recipe pages
-    and video captions into clean, structured recipe cards using **on-device extraction
-    with Apple Intelligence**, with a cloud fallback on older hardware. No accounts,
-    private iCloud-only sync — the same on-device inference discipline as the Pi/Hailo
-    work, on Apple silicon.
+    — iOS app shipped solo to the App Store (2026, soft launch: AU & PH): recipe
+    extraction from web pages and video captions via on-device Apple Intelligence, with a
+    cloud fallback. No accounts, private iCloud-only storage. Product, build and release
+    end to end.
 
   **Experience**
 
