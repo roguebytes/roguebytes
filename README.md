@@ -14,10 +14,11 @@
   **Recent work**
 
   - [**uav-survey-strategy-simulation**](https://github.com/roguebytes/uav-survey-strategy-simulation)
-    — the simulation behind my MPhil paper *"Fly High or Fly Low?"* (submitted to
-    *Remote Sensing*, 2026): a stochastic framework that pre-computes when a
-    high-altitude UAV survey beats a low-altitude sweep, cutting mission time by up
-    to **68%** in sparse fields — fully reproducible from a single seed.
+    — the simulation behind my MPhil paper *"Fly High or Fly Low?"* (*Remote
+    Sensing* 2026, 18(18), 3129 — [doi:10.3390/rs18183129](https://doi.org/10.3390/rs18183129)):
+    a stochastic framework that pre-computes when a high-altitude UAV survey beats
+    a low-altitude sweep, cutting total mission cost by **46%** in sparse fields —
+    fully reproducible from a single seed.
   - [**deepweeds-edge-classifier**](https://github.com/roguebytes/deepweeds-edge-classifier)
     — weed classification for the Australian DeepWeeds dataset, taken all the way to
     silicon: **96% top-1 at 2,200+ FPS** (1.8 ms) on a Raspberry Pi 5 + Hailo-8 NPU,
