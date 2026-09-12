@@ -43,7 +43,7 @@
 
   **Background**
 
-  MPhil — AI & robotics research, QUT (in progress) · BIT (Honours), QUT ·
+  MPhil — AI & robotics research, QUT (under examination) · BIT (Honours), QUT ·
   CASA Remote Pilot Licence (to 25 kg) · MAAA Bronze Wings · Brisbane, Australia.
 
   **Tech:** Python · PyTorch · ONNX / ONNX Runtime · Computer Vision · Edge AI ·
